@@ -1,0 +1,19 @@
+{
+  "name": "vuepress-plugin-janitor",
+  "version": "0.1.0-alpha",
+  "description": "Helps clean up build files from VuePress",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bencodezen/vuepress-plugin-janitor.git"
+  },
+  "author": "Ben Hong <bencodezen@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bencodezen/vuepress-plugin-janitor/issues"
+  },
+  "homepage": "https://github.com/bencodezen/vuepress-plugin-janitor#readme"
+}
