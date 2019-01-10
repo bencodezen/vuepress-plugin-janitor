@@ -1,6 +1,6 @@
 {
   "name": "vuepress-plugin-janitor",
-  "version": "0.1.0-alpha",
+  "version": "v1.0.0",
   "description": "Helps clean up build files from VuePress",
   "main": "index.js",
   "scripts": {
