@@ -10,7 +10,10 @@ module.exports = (options, ctx) => {
                 const currentDateISO = new Date(currentDateUTC).toISOString()
 
                 if (page.frontmatter.date) {
-                    const isFuturePost = page.frontmatter.date > currentDateISO
+                    const currentDate = new Date(currentDateISO)
+                    const pageDate = new Date(page.frontmatter.date)
+
+                    const isFuturePost = pageDate > currentDate
 
                     if (isFuturePost) {
                         fs.unlinkSync(ctx.outDir + page.path)
